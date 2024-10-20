@@ -9,11 +9,13 @@
     padding: 0;
     box-sizing: border-box;
     font-family: "DM Sans", sans-serif;
+    color: var(--main-color);
+    list-style: none;
     text-decoration: none;
     font-size: 20px;
     font-weight: 500;
-    color: var(--main-color);
 }
+
 
 /* Header */
 
@@ -52,17 +54,17 @@ header{
     width: 100%;
 }
 
-ul {
+nav ul {
     display: flex;
     justify-items: center;
     gap: 40px;
 }
 
-li{
+nav ul li{
     padding: 5px;
 }
 
-li:hover{
+nav ul li:hover{
     background-color: rgba(0, 0, 0, 0.096);
     border-radius: 30px;
 }
@@ -149,4 +151,37 @@ li:hover{
 .promociones img{
     border-radius: 30px;
     width: 100%;
+}
+
+
+
+/* FOOTER OJO */
+
+footer{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    background-color: #c7c7c7;
+    text-align: center;
+    flex-basis: 20%;
+    max-width: 100%;
+    flex-grow: 1;
+    flex-shrink: 1;
+    padding: 20px;
+}
+
+footer ul{
+    background-color: aqua;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+footer ul li:first-child{
+    font-weight: bold;
+}
+
+.copyright{
+    position: fixed;
+    display: block;
 }
