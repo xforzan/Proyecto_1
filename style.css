@@ -188,10 +188,6 @@ footer ul li:first-child{
     font-size: 25px;
 }
 
-.copyright{
-    position: fixed;
-    display: block;
-}
 
 .sobre-nosotros{
     display: flex;
@@ -199,12 +195,12 @@ footer ul li:first-child{
     justify-content: center;
     align-items: center;
     gap: 15px;
-    width: 20%;
     flex-basis: 20%;
     max-width: 100%;
     flex-grow: 1;
     flex-shrink: 1;
     padding: 20px;
+    width: 100%;
 
 }
 
@@ -216,4 +212,15 @@ footer ul li:first-child{
 .sobre-nosotros p{
     text-align: center;
     font-size: 15px;
+}
+
+.copyright{
+    width: 100%;
+}
+
+@media (max-width:549px) {
+    footer ul,footer, .sobre-nosotros {
+        min-width: 100%;
+    }
+    
 }
