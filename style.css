@@ -105,6 +105,8 @@ li:hover{
     text-align: center;
     flex-basis: 20%;
     max-width: 100%;
+    flex-grow: 1;
+    flex-shrink: 1;
 }
 
 .imagen-producto{
