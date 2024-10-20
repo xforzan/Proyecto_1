@@ -249,3 +249,10 @@ footer ul li:first-child{
     gap: 2px;
 
 }
+
+.metodos-de-pago{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    width: 100%;
+}
