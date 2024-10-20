@@ -206,7 +206,8 @@ footer ul li:first-child{
 
 .sobre-nosotros img{
     width: 50%;
-    max-width: 200px;
+    max-width: 250px;
+    min-width: 100px;
 }
 
 .sobre-nosotros p{
