@@ -84,3 +84,46 @@ li:hover{
 }
 
 /* Contenido Principal */
+
+.productos{
+    display: flex;
+    flex-wrap: wrap;
+    padding: 20px;
+    gap: 10px;
+}
+
+.producto{
+    border: 2px solid black;
+    display: flex;
+    flex-direction: column;
+    padding: 10px;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    border-radius: 30px;
+}
+
+.imagen-producto{
+    width: 30%;
+}
+
+.boton{
+    background-color: black;
+    color: white;
+    border-radius: 30px;
+    padding: 10px;
+    border: none;
+    transition: 1s;
+}
+
+.boton:hover{
+    color: #c7c7c7;
+    scale: 1.1;
+
+}
+
+.bottom{
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
