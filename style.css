@@ -181,6 +181,7 @@ footer ul{
 
 footer ul li:first-child{
     font-weight: bold;
+    font-size: 25px;
 }
 
 .copyright{
