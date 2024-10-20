@@ -168,6 +168,7 @@ footer{
     flex-grow: 1;
     flex-shrink: 1;
     padding: 20px;
+    gap: 20px;
 }
 
 footer ul{
