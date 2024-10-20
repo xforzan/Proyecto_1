@@ -226,3 +226,26 @@ footer ul li:first-child{
     }
     
 }
+
+.instagram::before{
+    content: url(/Assets/Icons/Instagram-logo.svg);
+}
+
+.tiktok::before{
+    content: url(/Assets/Icons/Tiktok-logo.svg);
+}
+
+.facebook::before{
+    content: url(/Assets/Icons/Facebook-logo.svg);
+}
+
+.x::before{
+    content: url(/Assets/Icons/X-logo.svg);
+}
+
+.instagram, .tiktok, .facebook, .x{
+    display: flex;
+    justify-content: center;
+    gap: 2px;
+
+}
