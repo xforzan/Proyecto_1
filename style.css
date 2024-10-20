@@ -1,25 +1,86 @@
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&display=swap');
+
 .root{
-    --main-color: #c7c7c7;
+    --main-color: #000000;
 }
 
 *{
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: "DM Sans", sans-serif;
+    text-decoration: none;
+    font-size: 20px;
+    font-weight: 500;
+    color: var(--main-color);
 }
 
-body{
+/* Header */
+
+header{
     display: flex;
-    justify-content: center;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 20px;
     align-items: center;
-    height: 100vh;
-    background-color: black;
-
+    background-color: beige;
+    gap: 40px;
 }
 
-h1{
-    text-align: center;
-    color: white;
-    font-size: 80px;
+.menu{
+    display: none;
+    cursor: pointer;
 }
+
+.logo img{
+    width: 100%;
+    height: auto;
+}
+
+.logo{
+    display: flex;
+    width: 20%;
+    min-width: 150px;
+}
+
+.navigation{
+    display: flex;
+    justify-content: end;
+    width: 100%;
+}
+
+ul {
+    display: flex;
+    justify-items: center;
+    gap: 40px;
+}
+
+li:hover{
+    background-color: rgba(0, 0, 0, 0.096);
+    border-radius: 30px;
+}
+
+.carrito::before{
+    content: url(/Assets/Icons/Cart.svg);
+}
+
+.acceso:before{
+    content: url(/Assets/Icons/Login.svg);
+}
+
+.acceso, .carrito{
+    display: flex;
+    align-items: center;
+}
+
+@media (max-width:535px) {
+    .navigation{
+        display: none;
+    }
+
+    .menu{
+        display: block;
+    }
+}
+
+/* Contenido Principal */
