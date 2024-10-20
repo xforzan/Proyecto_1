@@ -36,10 +36,6 @@ header{
     top: 0;
 }
 
-.mensaje-envio{
-    width: 100€;
-    justify-content: center;
-}
 
 .menu{
     display: none;
@@ -267,8 +263,18 @@ footer ul li:first-child{
 }
 
 .promociones{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    flex-grow: 1;
+    flex-shrink: 1;
+    flex-basis: 50px;
     cursor: pointer;
     padding: 20px;
-    width: 30%;
     gap: 20px;
+}
+
+.promociones img{
+    width: 100%;
+    max-width: 30%;
 }
