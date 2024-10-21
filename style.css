@@ -25,6 +25,20 @@ a{
     color: var(--main-color);
 }
 
+h2{
+    display: block;
+    min-width: 100%;
+    font-size: 25px;
+    font-weight: bold;
+    color: var(--main-color);
+}
+
+h1, h3, h4, h5, h6 {
+    color: var(--main-color);
+    font-weight: 700;
+    margin-bottom: 15px;
+}
+
 /* Header */
 
 header{
@@ -113,14 +127,6 @@ nav ul li:hover{
     width: 100%;
 }
 
-.productos h2{
-    display: block;
-    min-width: 100%;
-    font-size: 25px;
-    font-weight: bold;
-
-}
-
 .producto{
     flex-grow: 0;
     /* border: 2px solid black; */
@@ -183,7 +189,26 @@ nav ul li:hover{
     
 }
 
-/* FOOTER OJO */
+.promociones{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    flex-grow: 1;
+    flex-shrink: 1;
+    flex-basis: 50px;
+    cursor: pointer;
+    padding: 20px;
+    gap: 20px;
+    justify-content: center;
+    align-items: center;
+}
+
+.promociones img{
+    width: 100%;
+    max-width: 420px;
+}
+
+/* FOOTER */
 
 footer{
     display: flex;
@@ -220,7 +245,6 @@ footer ul li:first-child{
 footer a{
      color: white;
 }
-
 
 .sobre-nosotros{
     display: flex;
@@ -287,23 +311,4 @@ footer a{
     flex-direction: row;
     justify-content: center;
     width: 100%;
-}
-
-.promociones{
-    display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
-    flex-grow: 1;
-    flex-shrink: 1;
-    flex-basis: 50px;
-    cursor: pointer;
-    padding: 20px;
-    gap: 20px;
-    justify-content: center;
-    align-items: center;
-}
-
-.promociones img{
-    width: 100%;
-    max-width: 420px;
 }
