@@ -162,7 +162,7 @@ nav ul li:hover{
 }
 
 @media (max-width:900px) {
-    .producto, .productos{
+    .producto{
         max-width: 100%;
     }
     
