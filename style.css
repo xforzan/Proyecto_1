@@ -121,6 +121,7 @@ nav ul li:hover{
     text-align: center;
     flex-basis: 20%;
     max-width: 100%;
+    max-width: 300px;
     flex-grow: 1;
     flex-shrink: 1;
 }
