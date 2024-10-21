@@ -161,7 +161,12 @@ nav ul li:hover{
     width: 100%;
 }
 
-
+@media (max-width:900px) {
+    .producto, .productos{
+        max-width: 100%;
+    }
+    
+}
 
 /* FOOTER OJO */
 
