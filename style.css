@@ -272,9 +272,11 @@ footer ul li:first-child{
     cursor: pointer;
     padding: 20px;
     gap: 20px;
+    justify-content: center;
+    align-items: center;
 }
 
 .promociones img{
     width: 100%;
-    max-width: 400px;
+    max-width: 420px;
 }
