@@ -105,7 +105,8 @@ nav ul li:hover{
     flex-wrap: wrap;
     padding: 20px;
     gap: 40px;
-    justify-content: center;
+    justify-content: start;
+    width: 100%;
 }
 
 .producto{
@@ -121,7 +122,8 @@ nav ul li:hover{
     border-radius: 30px;
     text-align: center;
     flex-basis: 20%;
-    max-width: 23%;
+    width: 20%;
+    /* max-width: 20%; */
     min-width: 250px;
     flex-grow: 1;
     flex-shrink: 1;
@@ -164,6 +166,7 @@ nav ul li:hover{
 @media (max-width:900px) {
     .producto{
         max-width: 100%;
+        justify-content: center;
     }
     
 }
